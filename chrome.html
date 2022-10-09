@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="chrome.css">
+    <title>Hi! there!</title>
+</head>
+<body>
+    <div class="case1">
+      <div id="clock">
+        <span id="date"></span>
+        <span id="time"></span>
+       </span>
+        </div>
+        <!--로그인-->
+      </div>
+    <div class="case1">   
+     <form class="hidden" id="login-form">
+      <input
+         class="loginbtn"
+         required
+         maxlength="15"
+         type="text"
+         placeholder="이름을 알려주세요"
+       />
+      </form>
+      <span class="hidden" id="greeting"></span>
+     </div>
+    <div class="case2">
+      <span>
+      <div class="case3">
+          <div id="weather">
+            <span></span>
+            <span></span>
+          </div>
+          <br>
+          <br>
+          <div id="quote" class="quote">
+           <span></span>
+           <span></span>
+          </div>
+      </div>
+      </span>
+      <span> 
+      <div class="case3">   
+      <!--todo-->
+       <form id="todo-form">
+       <input class="todoinput" maxlength="30" type="text" placeholder="뭘 해볼까요?" required />
+       </form>
+        <ul id="todo-list" class="todo"></ul>
+      </div> 
+      </span>    
+    </div>
+     
+ <script src="greetings.js"></script>
+ <script src="clock.js"></script>
+ <script src="quotes.js"></script>
+ <script src="background.js"></script>
+ <script src="todos.js"></script>
+ <script src="weather.js"></script>
+</body>
+</html>
